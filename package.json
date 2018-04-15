@@ -1,0 +1,30 @@
+{
+  "name": "medium-node-inspector-tests",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:ts": "tsc",
+    "start": "node index.js",
+    "start:watch": "nodemon index.js",
+    "start:debug": "node --inspect index.js",
+    "start:debug:ts": "node --inspect --require ts-node/register index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrerpena/medium-node-inspector-tests.git"
+  },
+  "author": "Andre Pena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrerpena/medium-node-inspector-tests/issues"
+  },
+  "homepage": "https://github.com/andrerpena/medium-node-inspector-tests#readme",
+  "dependencies": {
+    "@types/express": "^4.11.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  }
+}
